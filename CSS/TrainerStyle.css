@@ -1,0 +1,181 @@
+@import url('./reset.css');
+
+ /* styles for smartphones */
+@media screen and (max-width: 767px)    {
+
+    header{
+        border: 1px solid rgb(148, 146, 146);
+        background-color: rgb(163, 240, 146);
+     
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li{
+        margin-top:10px;
+        list-style-type: none;
+    }
+    
+    
+    
+    nav ul li a:link,
+    nav ul li a:visited{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        margin: 15px;
+        padding:15px;
+        border-radius: 5px;
+        
+    }
+    
+    
+    nav ul li a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    nav ul li img{
+        height: 70px;
+        width:70px;
+    }
+}
+/* styles for tablets */
+@media screen and (min-width: 768px) {
+    header{
+        border: 1px solid rgb(148, 146, 146);
+        background-color: rgb(240, 185, 146);
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li{
+        margin-top:10px;
+        list-style-type: none;
+    }
+    
+    
+    
+    nav ul li a:link,
+    nav ul li a:visited{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        margin: 15px;
+        padding:15px;
+        border-radius: 5px;
+        
+    }
+    
+    
+    nav ul li a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    nav ul li img{
+        height: 70px;
+        width:70px;
+    }
+}
+
+ /* styles for desktops */
+@media screen and (min-width: 800px) {
+    header{
+        border: 1px solid rgb(148, 146, 146);
+        background-color: rgb(146, 146, 240);
+        height: 200px;
+        background-image: url('https://images.hdqwalls.com/wallpapers/material-design-colors-8k-2q.jpg');
+        background-size: cover;/* Adjusts the size of the background image */
+       /* background-position: center;  Positions the background image at the center */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li{
+      
+        list-style-type: none;
+    }
+    
+    
+    
+    nav ul li a:link,
+    nav ul li a:visited{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        margin: 15px;
+        padding:15px;
+        border-radius: 5px;
+        
+    }
+    
+    
+    nav ul li a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    nav ul li img{
+        height: 70px;
+        width:70px;
+    }
+
+    .container2{
+        display:flex;
+      
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+     }
+     .container2 div{
+       background-color: lightcoral;
+       padding:10px;
+         margin: 10px;
+         width:100px;
+         height:150px;
+         overflow:auto;
+   
+    
+     }
+   
+     .container2 div:nth-child(2n){
+       background-color: yellow;
+       padding:10px;
+         margin: 10px;
+         width:100px;
+         height:250px;
+         overflow:auto;
+   
+    
+     }
+
+     h1{
+        font-size: 1.5em;
+        margin:10px;
+     }
+
+     h2{
+        font-size: 1em;
+        margin:10px;
+     }
+   
+   
+     
+    /* scrollbar for Chrome, Safari and Opera */
+    .container2 div::-webkit-scrollbar{
+       display:none;
+       -ms-overflow-style: none;  /* IE and Edge */
+       scrollbar-width: none;  /* Firefox */
+    }
+}
+
+@media  not (min-width: 1024px) {
+}

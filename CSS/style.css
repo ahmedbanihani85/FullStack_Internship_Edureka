@@ -1,0 +1,94 @@
+h3{
+
+    background-color: bisque;
+    color: brown;
+    border-color: chocolate;
+    border-style: dashed;
+
+}
+
+.TextClass1
+{
+
+    font-style: oblique;
+    font-weight: 300;
+    color: cadetblue;
+    background-color: blanchedalmond;
+    align-content: center;
+
+}
+
+#TextParagrpah3{
+    display: flex;
+    text-align: justify;
+    background-color: blueviolet;
+    color: cornsilk;
+    border-color: blue;
+    border-width: 5px; 
+
+}
+
+p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container1
+{
+    display:flex;
+    flex-flow: wrap;
+    flex: row wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    color: brown;
+}
+
+.container1 div{
+    background-color: lightcoral;
+    padding:10px;
+    margin: 10px;
+    width:100px;
+    height:150px;
+    overflow:auto;
+ 
+  }
+
+  header{
+    border: 1px solid rgb(31, 27, 210);
+    background-color: rgb(230, 230, 240);
+ 
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-top:10px;
+    list-style-type: none;
+}
+
+
+
+nav ul li a:link,
+nav ul li a:visited{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    padding:15px;
+    border-radius: 5px;
+    
+}
+
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+nav ul li img{
+    height: 100px;
+    width:100px;
+}
